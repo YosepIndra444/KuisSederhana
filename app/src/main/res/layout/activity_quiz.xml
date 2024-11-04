@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pertanyaan pertama -->
+    <TextView
+        android:id="@+id/question1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of France?"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/question1RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton android:id="@+id/option1Q1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Paris" />
+        <RadioButton android:id="@+id/option2Q1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="London" />
+        <RadioButton android:id="@+id/option3Q1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rome" />
+    </RadioGroup>
+
+    <!-- Pertanyaan kedua -->
+    <TextView
+        android:id="@+id/question2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of Japan?"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/question2RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton android:id="@+id/option1Q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tokyo" />
+        <RadioButton android:id="@+id/option2Q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seoul" />
+        <RadioButton android:id="@+id/option3Q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beijing" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
